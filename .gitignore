@@ -1,0 +1,43 @@
+# Root level gitignore
+.DS_Store
+.idea
+.vscode
+
+# Client (React) ignores
+/realtime-chat-frontend/node_modules
+/realtime-chat-frontend/.env
+/realtime-chat-frontend/.env.local
+/realtime-chat-frontend/.env.development
+/realtime-chat-frontend/.env.test
+/realtime-chat-frontend/.env.production
+/realtime-chat-frontend/.pnp
+/realtime-chat-frontend/.pnp.js
+/realtime-chat-frontend/coverage
+/realtime-chat-frontend/build
+/realtime-chat-frontend/dist
+/realtime-chat-frontend/.DS_Store
+/realtime-chat-frontend/npm-debug.log*
+/realtime-chat-frontend/yarn-debug.log*
+/realtime-chat-frontend/yarn-error.log*
+
+# Server (Ruby on Rails) ignores
+/realtime-chat-backend/.env
+/realtime-chat-backend/.env.*
+/realtime-chat-backend/log/*
+/realtime-chat-backend/tmp/*
+/realtime-chat-backend/storage/*
+/realtime-chat-backend/*.log
+/realtime-chat-backend/config/master.key
+/realtime-chat-backend/config/credentials.yml.enc
+/realtime-chat-backend/public/assets
+/realtime-chat-backend/public/packs
+/realtime-chat-backend/public/packs-test
+/realtime-chat-backend/.bundle
+/realtime-chat-backend/vendor/bundle
+/realtime-chat-backend/node_modules
+/realtime-chat-backend/yarn-error.log
+/realtime-chat-backend/tmp/cache
+/realtime-chat-backend/.byebug_history
+/realtime-chat-backend/coverage/
+/realtime-chat-backend/.env*
+/realtime-chat-backend/config/database.yml
